@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingBottom="18dp"
+    android:paddingTop="18dp"
+    android:background="#fff"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="6dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/logo"/>
+
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:inputType="text"
+                android:padding="8dp"
+                android:drawablePadding="12dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:textSize="18sp"
+                android:maxLines="1"/>
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:inputType="text"
+                android:padding="8dp"
+                android:drawablePadding="12dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:maxLines="1"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:id="@+id/enEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:drawablePadding="12dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:maxLines="1"
+                android:textSize="18sp"/>
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:padding="8dp"
+                android:drawablePadding="12dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:maxLines="1"
+                android:textSize="18sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp">
+
+
+            <Button
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Date of Birth"
+                android:padding="8dp"
+                android:drawablePadding="12dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:maxLines="1"
+                android:textSize="18sp"/>
+            <EditText
+                android:id="@+id/endob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginLeft="8dp"
+                android:drawablePadding="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:drawablePadding="12dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:textSize="18sp"
+                android:maxLines="1"/>
+
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:background="@color/blue"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
